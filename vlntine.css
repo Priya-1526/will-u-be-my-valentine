@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Indie Flower', cursive;
+    flex-direction: center;
+  }
+  
+  .container {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #d32f2f;
+  }
+  
+  .buttons {
+        margin-top: 20px;
+    }
+  
+  .yes-button {
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+    padding: 10px 20px;
+    margin-right: 15px;
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .no-button {
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+    padding: 10px 20px;
+    margin-left: 15px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gif_container img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .gif_container2 img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes fadeYay {
+    0% { opacity: 1; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.2); }
+    100% { opacity: 0; transform: scale(1.5) translateY(-50px); }
+}
+
+.yay-message {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4d94; 
+    animation: fadeYay 1.5s ease-out forwards;
+    pointer-events: none;
+}
