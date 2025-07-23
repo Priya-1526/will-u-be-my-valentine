@@ -5,7 +5,11 @@ An interactive and fun webpage designed to ask someone to be your Valentine! Thi
 ## ✨ Features
 - 🖱️ **"Yes" Button:** Grows larger when hovered or when "No" is clicked. After clicking "Yes," a new slide appears!  
 - ❌ **"No" Button:** Changes text to a series of playful messages.  
-- 💡 Simple and engaging UI for a fun experience.  
+- 💡 Simple and engaging UI for a fun experience.
+
+## Live Demo
+[Click here to view](https://priya-1526.github.io/will-u-be-my-valentine/)
+
 
 ## 📷 Preview
 - https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWFjeDN2d3AwMncwZ3diMm03ZTVwcThwcW9vaHRzMjNyYTUwc3RqYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VXGhdIcmFrIA0S7gNa/giphy.gif
